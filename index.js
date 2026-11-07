@@ -26,4 +26,18 @@ function makeGrid(size) {
 
 }
 
-makeGrid(10)
+makeGrid(16)
+
+const grid = document.body.querySelector(".grid")
+const row = grid.querySelectorAll(".row")
+const gridSquare = document.querySelectorAll(".items")
+
+gridSquare.forEach(div => {
+
+    div.addEventListener('mouseenter', () => {
+
+        div.style.backgroundColor = '#111111'
+
+    })
+
+})
