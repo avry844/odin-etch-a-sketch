@@ -45,6 +45,7 @@ gridSquare.forEach(div => {
 
     div.addEventListener('mouseenter', () => {
 
+        penColor = "rgb(" + String(Math.floor(Math.random() * 255)) + "," + String(Math.floor(Math.random() * 255)) + "," + String(Math.floor(Math.random() * 255)) + ")"
         div.style.backgroundColor = penColor
 
     })
@@ -57,6 +58,7 @@ function replaceEventListener() {
     gridSquare.forEach(div => {
         div.addEventListener('mouseenter', () => {
 
+            penColor = "rgb(" + String(Math.floor(Math.random() * 255)) + "," + String(Math.floor(Math.random() * 255)) + "," + String(Math.floor(Math.random() * 255)) + ")"
             div.style.backgroundColor = penColor
 
         })

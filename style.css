@@ -9,6 +9,8 @@ body {
 h1 {
 
     color: gold;
+    font-size: 75px;
+    margin: 0;
 
 }
 
@@ -41,4 +43,18 @@ h1 {
 
     background-color: black;
 
+}
+
+button {
+
+    background-color: white;
+
+    border-radius: 25px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+
+    height: 50px;
+    width: 100px;
+    margin: 25px;
 }
